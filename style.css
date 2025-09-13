@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: aliceblue;
+    background-color: black;
 }
 header{
     height: 8vh;
@@ -73,4 +73,5 @@ header p{
 }
 .res{
     color: rgb(0, 58, 97);
+
 }
