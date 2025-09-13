@@ -31,7 +31,7 @@ header p{
     border: 1.5px solid rgb(0, 0, 0);
     border-radius: 5px;
     padding-left: 5px;
-    background-color: aliceblue;
+    background-color:  rgb(209, 238, 245);
 }
 #searchlocation button{
      height:35px;
@@ -75,3 +75,4 @@ header p{
     color: rgb(0, 58, 97);
 
 }
+
