@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: aliceblue;
+}
+header{
+    height: 8vh;
+    width: 100vw;
+    background-color:rgb(183, 231, 242);
+      display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+header p{
+    margin: 0%;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#searchlocation{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 15px;
+     column-gap:7px;
+
+}
+#searchlocation input{
+    height:30px;
+    width: 300px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: aliceblue;
+}
+#searchlocation button{
+     height:35px;
+     width: fit-content;
+     padding: 6px;
+     cursor: pointer;
+      border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(209, 238, 245);
+
+}
+.showdata{
+       width: 21vw;
+       height: 20vh;
+       background-color: rgb(216, 243, 249);
+
+       border-radius: 10px;
+     
+}
+#data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    row-gap: 30px;
+}
+.showdata p{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+     text-align: center;
+}
+.dataheading{
+    border-bottom: 1.5px dashed rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.res{
+    color: rgb(0, 58, 97);
+}
