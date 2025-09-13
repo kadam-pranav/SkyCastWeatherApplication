@@ -14,7 +14,7 @@ let searchBtton=document.getElementById('searchbtn');
 
 searchBtton.addEventListener('click',()=>{
     let input=document.getElementById('inp').value;
-    let data=fetch(`http://api.weatherapi.com/v1/current.json?key=76495484c51f43fda1c54628251309&q=${input}&aqi=no`)
+    let data=fetch(`https://api.weatherapi.com/v1/current.json?key=76495484c51f43fda1c54628251309&q=${input}&aqi=no`)
     .then((response)=>response.json())
     .then((data)=>{
           
@@ -38,4 +38,5 @@ searchBtton.addEventListener('click',()=>{
         input.value=''
     })
 })
+
 
