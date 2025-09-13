@@ -29,15 +29,12 @@ searchBtton.addEventListener('click',()=>{
           document.getElementById('inp').value=''
         
 
-
-
-
-
     })
     .catch((err)=>{alert("Enter Valid Location")
-        input.value=''
+        document.getElementById('inp').value=''
     })
 })
+
 
 
 
